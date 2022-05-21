@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class press_x {
     public static void main(String[] args) {
-        char a = 'x';
+        //char a = 'x';
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a no: ");
         int n=0,sum=0;
