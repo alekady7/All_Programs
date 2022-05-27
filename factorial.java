@@ -6,13 +6,9 @@ public class factorial {
         System.out.print("Enter a no: ");
         int num = sc.nextInt();
         int factorial=1;
-        if(num > 0) {
-            for(int i=1;i<=num;i++){
-                factorial *= i;
-            }System.out.print(factorial);
-        }else{
-            System.out.print("0");
-        }
+        for(int i=1;i<=num;i++){
+            factorial *= i;
+        }System.out.print(factorial);
     }
 
     public static void main(String[] args){
