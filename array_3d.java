@@ -8,6 +8,7 @@ public class array_3d {
                 }
                 System.out.println();
             }
+            System.out.println();
         }
     }
 }
